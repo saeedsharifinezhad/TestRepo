@@ -132,3 +132,23 @@ td {
 }
 
 }
+
+.collaborationForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.normal-field {
+    width: 100%;
+    border-radius: 8px;
+    border: solid 1px #D5DDE6;
+    line-height: 20px;
+    padding: 8px;
+}
+
+.fields-title {
+    color: #1E3A5F;
+    font-size: 14px;
+}

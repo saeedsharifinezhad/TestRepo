@@ -123,6 +123,16 @@ td {
     color: white;
 }
 
+@media (min-width: 675px) {
+    .mainContent {
+    display: grid;
+    grid-template-columns: 60% 39%;
+    justify-content: space-between;
+    align-items: start;
+}
+
+}
+
 .collaborationForm {
     display: flex;
     flex-direction: column;
@@ -141,14 +151,4 @@ td {
 .fields-title {
     color: #1E3A5F;
     font-size: 14px;
-}
-
-@media (min-width: 675px) {
-    .mainContent {
-    display: grid;
-    grid-template-columns: 60% 39%;
-    justify-content: space-between;
-    align-items: start;
-}
-
 }
